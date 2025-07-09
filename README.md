@@ -46,8 +46,9 @@ Aplikasi web yang sederhana memungkinkan deteksi keberadaan **Laptop** dan **Sma
 
 ### 📦 1. Clone Repo
 ```bash
-git clone https://github.com/KANGGAFH/Deteksi-Objek-dalam-Ruangan-menggunakan-YOLOv8-OpenCV-Flask.git
-cd Deteksi-Objek-dalam-Ruangan-menggunakan-YOLOv8-OpenCV-Flask
+
+git clone https://github.com/KANGGAFH/Deteksi-Laptop-dan-Smartphone-menggunakan-YOLOv12-OpenCV-Flask.git
+cd Deteksi-Laptop-dan-Smartphone-menggunakan-YOLOv12-OpenCV-Flask
 ```
 
 ### 📥 2. Install Semua Dependency
@@ -55,13 +56,13 @@ cd Deteksi-Objek-dalam-Ruangan-menggunakan-YOLOv8-OpenCV-Flask
 pip install -r requirements.txt
 ```
 
-### 🧠 3. Download Model YOLOv8
+### 🧠 3. Download Model YOLOv12
 jalankan python:
 ```python
 from ultralytics import YOLO
-YOLO("yolov8n.pt")
+YOLO("yolo12x.pt")
 ```
-Model ini akan otomatis disimpan dan digunakan untuk deteksi objek.
+Model ini akan otomatis disimpan dan digunakan untuk deteksi perangkat.
 
 ### 🟢 5. Jalankan Aplikasi
 ```bash
