@@ -1,0 +1,1 @@
+# Deteksi-Laptop-dan-Smartphone-menggunakan-YOLOv12-OpenCV-Flask
